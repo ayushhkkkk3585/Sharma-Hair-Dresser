@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
 import bgimage from "../../public/andrea-donato-MNu0n-3BIKs-unsplash.jpg";
+import Bgimage from "../../public/allef-vinicius-IvQeAVeJULw-unsplash.jpg";
 
 const MainPage = () => {
   return (
@@ -15,9 +16,9 @@ const MainPage = () => {
             "Where Style Meets Tradition
           </span>
           <span className=" text-border text-white font-bold text-2xl shadow-2xl bohver sm:text-4xl md:text-5xl lg:text-6xl ">
-          and Your Grooming Experts"
+            and Your Grooming Experts"
           </span>
-          
+
           <span className="t text-white font-bold text-base shadow-xl bohver sm:text-xl md:text-2xl">
             Want to book an appointment? Click below!
           </span>
@@ -47,11 +48,72 @@ const MainPage = () => {
               </span>
             </div>
             <div className="flex justify-center items-center flex-1">
-            <img
-      className="h-96 md:h-auto md:w-2/3 transition-transform duration-300 ease-in-out hover:scale-110 rounded-md"
-      src="/public/logan-weaver-lgnwvr-knziVjrvztA-unsplash.jpg"
-      alt="Hair Dresser"
-    />
+              <img
+                className="h-96 md:h-auto md:w-2/3 transition-transform duration-300 ease-in-out hover:scale-110 rounded-md"
+                src="/public/logan-weaver-lgnwvr-knziVjrvztA-unsplash.jpg"
+                alt="Hair Dresser"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="bg-cover bg-center h-96 flex justify-center items-center gap-3 flex-col text-white md:flex-row"
+          style={{ backgroundImage: `url(${Bgimage})` }}
+        >
+          <div className="w-80 flex flex-row bg-white bg-opacity-30 backdrop-blur-md gap-2 p-2 rounded-md ">
+            <div className="mt-2">
+              <img
+                className="w-24"
+                src="/public/Barber Scissors.png"
+                alt="Barber Scissors"
+              />
+            </div>
+            <div className="flex flex-col text-black">
+              <span className="merriweather-bold ">Cuts</span>
+              <span className="merriweather-regular text-sm ">
+                Cuts ut nisl quam nestibulum drana odio elementum sceisue the
+                can golden varius the dis monte.
+              </span>
+            </div>
+          </div>
+
+
+
+
+          <div className="w-80 flex flex-row bg-white bg-opacity-30 backdrop-blur-md gap-2 p-2 rounded-md">
+            <div className="mt-2">
+              <img
+                className="w-24"
+                src="/public/Barber Clippers.png"
+                alt="Barber Scissors"
+              />
+            </div>
+            <div className="flex flex-col text-black">
+              <span className="merriweather-bold">Fades</span>
+              <span className="merriweather-regular text-sm">
+                Cuts ut nisl quam nestibulum drana odio elementum sceisue the
+                can golden varius the dis monte.
+              </span>
+            </div>
+          </div>
+
+
+
+
+          <div className="w-80 flex flex-row bg-white bg-opacity-30 backdrop-blur-md gap-2 p-2 rounded-md">
+            <div className="mt-2">
+              <img
+                className="w-24"
+                src="/public/Razor.png"
+                alt="Barber Scissors"
+              />
+            </div>
+            <div className="flex flex-col text-black">
+              <span className="merriweather-bold">Shaves</span>
+              <span className="merriweather-regular text-sm">
+                Cuts ut nisl quam nestibulum drana odio elementum sceisue the
+                can golden varius the dis monte.
+              </span>
             </div>
           </div>
         </div>
