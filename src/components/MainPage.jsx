@@ -50,7 +50,7 @@ const MainPage = () => {
             <div className="flex justify-center items-center flex-1">
               <img
                 className="h-96 md:h-auto md:w-2/3 transition-transform duration-300 ease-in-out hover:scale-110 rounded-md"
-                src="/public/logan-weaver-lgnwvr-knziVjrvztA-unsplash.jpg"
+                src="/logan-weaver-lgnwvr-knziVjrvztA-unsplash.jpg"
                 alt="Hair Dresser"
               />
             </div>
@@ -64,7 +64,7 @@ const MainPage = () => {
             <div className="mt-2">
               <img
                 className="w-24"
-                src="/public/Barber Scissors.png"
+                src="/Barber Scissors.png"
                 alt="Barber Scissors"
               />
             </div>
@@ -84,7 +84,7 @@ const MainPage = () => {
             <div className="mt-2">
               <img
                 className="w-24"
-                src="/public/Barber Clippers.png"
+                src="/Barber Clippers.png"
                 alt="Barber Scissors"
               />
             </div>
@@ -104,7 +104,7 @@ const MainPage = () => {
             <div className="mt-2">
               <img
                 className="w-24"
-                src="/public/Razor.png"
+                src="/Razor.png"
                 alt="Barber Scissors"
               />
             </div>

@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <nav className="p-2 sticky top-0 z-50 ">
       <div className="container mx-auto flex justify-between items-center">
-        <div className="text-white text-lg font-bold"><img className='w-20 sm:w-26' src="/public/Black_and_White_Grunge_Vintage_Barber_Shop_Logo-removebg-preview.png" alt="" /></div>
+        <div className="text-white text-lg font-bold"><img className='w-20 sm:w-26' src="/Black_and_White_Grunge_Vintage_Barber_Shop_Logo-removebg-preview.png" alt="" /></div>
         <div className="lg:hidden">
           <button onClick={toggleNavbar} className="text-white focus:outline-none">
             {/* for the lines */}
