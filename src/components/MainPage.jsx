@@ -60,30 +60,27 @@ const MainPage = () => {
           className="bg-cover bg-center h-96 flex justify-center items-center gap-3 flex-col text-white md:flex-row"
           style={{ backgroundImage: `url(${Bgimage})` }}
         >
-          <div className="w-80 flex flex-row bg-white bg-opacity-30 backdrop-blur-md gap-2 p-2 rounded-md ">
+          <div className="w-80 flex flex-row bg-white bg-opacity-30 backdrop-blur-md gap-2 p-2 rounded-md hover:glow">
             <div className="mt-2">
               <img
-                className="w-24"
+                className="w-24 transform transition-transform duration-300 ease-in-out hover:rotate-180 "
                 src="/Barber Scissors.png"
                 alt="Barber Scissors"
               />
             </div>
             <div className="flex flex-col text-black">
-              <span className="merriweather-bold ">Cuts</span>
-              <span className="merriweather-regular text-sm ">
+              <span className="merriweather-bold">Cuts</span>
+              <span className="merriweather-regular text-sm">
                 Cuts ut nisl quam nestibulum drana odio elementum sceisue the
                 can golden varius the dis monte.
               </span>
             </div>
           </div>
 
-
-
-
-          <div className="w-80 flex flex-row bg-white bg-opacity-30 backdrop-blur-md gap-2 p-2 rounded-md">
+          <div className="w-80 flex flex-row bg-white bg-opacity-30 backdrop-blur-md gap-2 p-2 rounded-md hover:glow ">
             <div className="mt-2">
               <img
-                className="w-24"
+                className="w-24 transform transition-transform duration-300 hover:rotate-180"
                 src="/Barber Clippers.png"
                 alt="Barber Scissors"
               />
@@ -97,13 +94,10 @@ const MainPage = () => {
             </div>
           </div>
 
-
-
-
-          <div className="w-80 flex flex-row bg-white bg-opacity-30 backdrop-blur-md gap-2 p-2 rounded-md">
+          <div className="w-80 flex flex-row bg-white bg-opacity-30 backdrop-blur-md gap-2 p-2 rounded-md hover:glow">
             <div className="mt-2">
               <img
-                className="w-24"
+                className="w-24 transform transition-transform duration-300 hover:rotate-180"
                 src="/Razor.png"
                 alt="Barber Scissors"
               />
