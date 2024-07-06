@@ -4,6 +4,7 @@ import './App.css'
 
 // import Navbar from './components/Navbar';
 import MainPage from './components/MainPage';
+import Footer from './components/Footer';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -14,6 +15,7 @@ function App() {
     <>
     <MainPage/>
       {/* <Navbar/> */}
+      {/* <Footer/> */}
       
     </>
   )

@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./Navbar";
 import bgimage from "../../public/andrea-donato-MNu0n-3BIKs-unsplash.jpg";
 import Bgimage from "../../public/allef-vinicius-IvQeAVeJULw-unsplash.jpg";
+import Footer from "./Footer";
 
 const MainPage = () => {
   return (
@@ -94,7 +95,7 @@ const MainPage = () => {
             </div>
           </div>
 
-          <div className="w-80 flex flex-row bg-white bg-opacity-30 backdrop-blur-md gap-2 p-2 rounded-md hover:glow">
+          <div className="w-80 flex flex-row bg-white bg-opacity-30 backdrop-blur-md gap-2 p-2 rounded-md hover:glow ">
             <div className="mt-2">
               <img
                 className="w-24 transform transition-transform duration-300 hover:rotate-180"
@@ -112,6 +113,7 @@ const MainPage = () => {
           </div>
         </div>
       </div>
+      <Footer/>
     </>
   );
 };
