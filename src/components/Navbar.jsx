@@ -29,9 +29,10 @@ const Navbar = () => {
           </button>
         </div>
         <div className={`lg:flex ${isOpen ? 'block' : 'hidden'} lg:block`}>
-          <span className=" hor block mt-4 lg:inline-block lg:mt-0 lg:font-bold text-lg  text-white  mr-4">
+         <Link to="/"> <span className=" hor block mt-4 lg:inline-block lg:mt-0 lg:font-bold text-lg  text-white  mr-4">
             Home
           </span>
+          </Link>
           <span className=" hor block mt-4 lg:inline-block lg:mt-0 lg:font-bold text-lg  text-white  mr-4">
             About
           </span>
