@@ -3,6 +3,7 @@ import Navbar from "./Navbar";
 import bgimage from "../../public/andrea-donato-MNu0n-3BIKs-unsplash.jpg";
 import Bgimage from "../../public/allef-vinicius-IvQeAVeJULw-unsplash.jpg";
 import Footer from "./Footer";
+import { Link } from 'react-router-dom'
 
 const MainPage = () => {
   return (
@@ -23,9 +24,10 @@ const MainPage = () => {
           <span className="t text-white font-bold text-base shadow-xl bohver sm:text-xl md:text-2xl">
             Want to book an appointment? Click below!
           </span>
-          <button className="mt-2 text-border p-2 rounded-md bg-[#f5eee7] font-semibold text-md shadow-2xl bohver sm:text-lg merriweather-bold ">
+          <Link to="/contact"><button className="mt-2 text-border p-2 rounded-md bg-[#f5eee7] font-semibold text-md shadow-2xl bohver sm:text-lg merriweather-bold ">
             Book Appointment
           </button>
+          </Link>
         </div>
         <div className="flex justify-start items-center flex-col bg-[#f5eee7] gap-4 md:pt-5 ">
           <span className="mt-6 merriweather-bold font-bold text-xl bg-[#625c56] p-2 text-white rounded ">

@@ -1,5 +1,6 @@
 
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 
 const Navbar = () => {
@@ -12,7 +13,7 @@ const Navbar = () => {
   return (
     <nav className="p-2 sticky top-0 z-50 ">
       <div className="container mx-auto flex justify-between items-center">
-        <div className="text-white text-lg font-bold"><img className='w-20 sm:w-26' src="/Black_and_White_Grunge_Vintage_Barber_Shop_Logo-removebg-preview.png" alt="" /></div>
+        <Link to="/"><div className="text-white text-lg font-bold"><img className='w-20 sm:w-26' src="/Black_and_White_Grunge_Vintage_Barber_Shop_Logo-removebg-preview.png" alt="" /></div></Link>
         <div className="lg:hidden">
           <button onClick={toggleNavbar} className="text-white focus:outline-none">
             {/* for the lines */}
@@ -34,9 +35,9 @@ const Navbar = () => {
           <span className=" hor block mt-4 lg:inline-block lg:mt-0 lg:font-bold text-lg  text-white  mr-4">
             About
           </span>
-          <span className="hor block mt-4 lg:inline-block lg:mt-0 lg:font-bold text-lg  text-white ">
+          <Link to="/contact"><span className="hor block mt-4 lg:inline-block lg:mt-0 lg:font-bold text-lg  text-white ">
             Contact
-          </span>
+          </span></Link>
         </div>
       </div>
     </nav>
