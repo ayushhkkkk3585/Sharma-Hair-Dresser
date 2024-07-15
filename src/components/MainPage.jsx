@@ -29,13 +29,13 @@ const MainPage = () => {
           </button>
           </Link>
         </div>
-        <div className="flex justify-start items-center flex-col bg-[#f5eee7] gap-4 md:pt-5 ">
-          <span className="mt-6 merriweather-bold font-bold text-xl bg-[#625c56] p-2 text-white rounded ">
+        <div className="flex justify-start items-center flex-col bg-[#f5eee7] gap-4 md:pt-3 ">
+          <span id="about" className="mt-6 merriweather-bold font-bold text-xl bg-[#625c56] p-2 text-white rounded ">
             HISTORY
           </span>
           {/* <span className="font-sans text-[#625c56] font-bold text-2xl ">Our History!!</span> */}
 
-          <div className="flex flex-col gap-4 p-3 md:flex-row">
+          <div  className="flex flex-col gap-4 p-3 md:flex-row">
             <div className="flex-1">
               <span className="merriweather-bold block md:text-xl p-4">
                 Come experience a unique and edgy barbershop for all your hair
@@ -52,7 +52,7 @@ const MainPage = () => {
             </div>
             <div className="flex justify-center items-center flex-1">
               <img
-                className="h-96 md:h-auto md:w-2/3 transition-transform duration-300 ease-in-out hover:scale-110 rounded-md"
+                className="h-80  md:h-auto md:w-80 lg:w-80 transition-transform duration-300 ease-in-out hover:scale-110 rounded-md"
                 src="/logan-weaver-lgnwvr-knziVjrvztA-unsplash.jpg"
                 alt="Hair Dresser"
               />

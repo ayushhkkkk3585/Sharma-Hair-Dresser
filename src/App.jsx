@@ -6,6 +6,7 @@ import './App.css'
 import MainPage from './components/MainPage';
 import Footer from './components/Footer';
 import Contact from './components/Contact';
+import Testnav from './components/Testnav';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -15,6 +16,7 @@ function App() {
   return (
     <>
     <MainPage/>
+      {/* <Testnav/> */}
       {/* <Navbar/> */}
       {/* <Footer/> */}
       {/* <Contact/> */}

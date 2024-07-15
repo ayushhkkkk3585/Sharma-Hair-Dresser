@@ -1,7 +1,5 @@
-
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,10 +9,14 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="p-2 sticky top-0 z-50 ">
+    <nav className=" top-0 z-50 ">
       <div className="container mx-auto flex justify-between items-center">
-        <Link to="/"><div className="text-white text-lg font-bold"><img className='w-20 sm:w-26' src="/Black_and_White_Grunge_Vintage_Barber_Shop_Logo-removebg-preview.png" alt="" /></div></Link>
-        <div className="lg:hidden">
+        <Link to="/">
+          <div className="">
+            <img className='w-20 sm:w-26' src="/Black_and_White_Grunge_Vintage_Barber_Shop_Logo-removebg-preview.png" alt="" />
+          </div>
+        </Link>
+        <div className="lg:hidden ">
           <button onClick={toggleNavbar} className="text-white focus:outline-none">
             {/* for the lines */}
             <div className={`${isOpen ? 'hidden' : 'block'}`}>
@@ -28,17 +30,22 @@ const Navbar = () => {
             </div>
           </button>
         </div>
-        <div className={`lg:flex ${isOpen ? 'block' : 'hidden'} lg:block`}>
-         <Link to="/"> <span className=" hor block mt-4 lg:inline-block lg:mt-0 lg:font-bold text-lg  text-white  mr-4">
-            Home
-          </span>
+        <div className={`lg:flex ${isOpen ? 'block' : 'hidden'} lg:block gap-5  `}>
+          <Link to="/">
+            <span className="hor block mt-4 lg:inline-block lg:mt-0 lg:font-bold text-lg text-white mr-4 ">
+              Home
+            </span>
           </Link>
-          <span className=" hor block mt-4 lg:inline-block lg:mt-0 lg:font-bold text-lg  text-white  mr-4">
+          <span className="hor block mt-4 lg:inline-block lg:mt-0 lg:font-bold text-lg text-white mr-4 ">
+            <a href="#about">
             About
+            </a>
           </span>
-          <Link to="/contact"><span className="hor block mt-4 lg:inline-block lg:mt-0 lg:font-bold text-lg  text-white ">
-            Contact
-          </span></Link>
+          <Link to="/contact">
+            <span className="hor block mt-4 lg:inline-block lg:mt-0 lg:font-bold text-lg text-white ">
+              Contact
+            </span>
+          </Link>
         </div>
       </div>
     </nav>
