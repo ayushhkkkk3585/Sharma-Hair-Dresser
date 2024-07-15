@@ -195,7 +195,7 @@ const Contact = () => {
                     type="text"
                     name="name"
                     placeholder="Name"
-                    className="p-3 rounded-md border border-gray-300 mb-4 focus:outline-none focus:ring-2 focus:ring-gray-400"
+                    className="p-3 rounded-md w-full border border-gray-300 mb-4 focus:outline-none focus:ring-2 focus:ring-gray-400"
                     value={formData.name}
                     onChange={handleChange}
                   />
@@ -208,7 +208,7 @@ const Contact = () => {
                     type="text"
                     name="phone"
                     placeholder="Phone"
-                    className="p-3 rounded-md border border-gray-300 mb-4 focus:outline-none focus:ring-2 focus:ring-gray-400"
+                    className="p-3 rounded-md w-full border border-gray-300 mb-4 focus:outline-none focus:ring-2 focus:ring-gray-400"
                     value={formData.phone}
                     onChange={handleChange}
                   />
@@ -223,7 +223,7 @@ const Contact = () => {
                     type="email"
                     name="email"
                     placeholder="e-Mail"
-                    className="p-3 rounded-md border border-gray-300 mb-4 focus:outline-none focus:ring-2 focus:ring-gray-400"
+                    className="p-3 rounded-md w-full border border-gray-300 mb-4 focus:outline-none focus:ring-2 focus:ring-gray-400"
                     value={formData.email}
                     onChange={handleChange}
                   />
@@ -236,7 +236,7 @@ const Contact = () => {
                     type="text"
                     name="subject"
                     placeholder="Subject"
-                    className="p-3 rounded-md border border-gray-300 mb-4 focus:outline-none focus:ring-2 focus:ring-gray-400"
+                    className="p-3 rounded-md border w-full border-gray-300 mb-4 focus:outline-none focus:ring-2 focus:ring-gray-400"
                     value={formData.subject}
                     onChange={handleChange}
                   />
